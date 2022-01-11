@@ -1,4 +1,3 @@
-const { test, expect } = require("@jest/globals");
 const plugin = require("./index");
 
 describe("docusaurus-plugin-matomo", () => {

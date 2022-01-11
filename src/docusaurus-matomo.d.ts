@@ -1,0 +1,1 @@
+export type Options = import('./index').PluginOptions;

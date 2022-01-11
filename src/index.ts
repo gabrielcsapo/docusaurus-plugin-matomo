@@ -1,6 +1,22 @@
 const path = require("path");
 
-module.exports = function (context, options) {
+export type PluginOptions = {
+  siteUrl: string;
+  matomoUrl: string;
+  matomoPhpScript: string
+  matomoJsScript: string;
+  siteId: string;
+  dev: boolean;
+  localScript: string;
+  requireConsent: boolean;
+  requireCookieConsent: boolean;
+  disableCookies: boolean;
+  cookieDomain: string;
+  enableJSErrorTracking: boolean
+  respectDnt: boolean
+}
+
+module.exports = function (context: any, options: PluginOptions) {
   if (!options) {
     throw new Error(
       `You need to specify options arguments use docusaurus-plugin-matomo.`
