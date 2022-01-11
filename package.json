@@ -1,7 +1,8 @@
 {
   "name": "@gabrielcsapo/docusaurus-plugin-matomo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Docusaurus Plugin to work with matomo analytics",
+  "types": "src/docusaurus-matomo.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gabrielcsapo/docusaurus-plugin-matomo.git"

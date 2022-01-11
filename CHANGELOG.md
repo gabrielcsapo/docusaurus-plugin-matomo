@@ -1,3 +1,7 @@
+# 0.1.1 (01/11/2022)
+
+- Uses the right package.json entry to expose types (@gabrielcsapo)
+
 # 0.1.0 (01/11/2022)
 
 - Updates to expose typescript types (@gabrielcsapo)
